@@ -12,6 +12,6 @@ class Article(scrapy.Item):
     headline = scrapy.Field()
     company = scrapy.Field()
     date = scrapy.Field()
-    paragraphs = scrapy.Field()
     clicks = scrapy.Field()
+    paragraphs = scrapy.Field()
     blog_id = scrapy.Field()
